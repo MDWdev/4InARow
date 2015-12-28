@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="gEp-1s-bch">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_IaR" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Kbg-rd-P3n">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="704"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGL-Vn-DUH">
+                                        <rect key="frame" x="0.0" y="0.0" width="145" height="704"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1OD-fR-bu6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CL5-cV-c8t">
+                                        <rect key="frame" x="147" y="0.0" width="144" height="704"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oFF-64-xpc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQd-Oo-pJg">
+                                        <rect key="frame" x="293" y="0.0" width="145" height="704"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tnx-qg-YUc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZJ-hY-jV7">
+                                        <rect key="frame" x="440" y="0.0" width="144" height="704"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TUO-hd-LfB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="325-qH-9rp">
+                                        <rect key="frame" x="586" y="0.0" width="145" height="704"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JKL-S7-IXv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zj3-j5-dHE">
+                                        <rect key="frame" x="733" y="0.0" width="144" height="704"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bq4-Ax-lHm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYZ-mZ-Hrb">
+                                        <rect key="frame" x="879" y="0.0" width="145" height="704"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W65-y9-JQ5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kbg-rd-P3n" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="0Zy-u4-fGS"/>
+                            <constraint firstAttribute="trailing" secondItem="Kbg-rd-P3n" secondAttribute="trailing" id="LiU-4T-6jG"/>
+                            <constraint firstItem="Kbg-rd-P3n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nzs-uW-v3F"/>
+                            <constraint firstItem="Kbg-rd-P3n" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="yeL-1k-DnA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tPg-BL-Yf7"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outletCollection property="columnButtons" destination="xGL-Vn-DUH" collectionClass="NSMutableArray" id="XRw-AL-2gn"/>
+                        <outletCollection property="columnButtons" destination="CL5-cV-c8t" collectionClass="NSMutableArray" id="G2u-8o-S0X"/>
+                        <outletCollection property="columnButtons" destination="KQd-Oo-pJg" collectionClass="NSMutableArray" id="EFR-7x-bTm"/>
+                        <outletCollection property="columnButtons" destination="3ZJ-hY-jV7" collectionClass="NSMutableArray" id="BLD-Zf-Joy"/>
+                        <outletCollection property="columnButtons" destination="325-qH-9rp" collectionClass="NSMutableArray" id="O7C-fg-Eph"/>
+                        <outletCollection property="columnButtons" destination="zj3-j5-dHE" collectionClass="NSMutableArray" id="GDk-gY-96r"/>
+                        <outletCollection property="columnButtons" destination="SYZ-mZ-Hrb" collectionClass="NSMutableArray" id="7xQ-jO-gf2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1370" y="753"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fDL-IG-m9J">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gEp-1s-bch" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="lD6-pZ-coe">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="o7c-VO-eB2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTq-OR-Yhx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="753"/>
+        </scene>
+    </scenes>
+</document>
